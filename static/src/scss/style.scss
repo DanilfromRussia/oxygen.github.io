@@ -22,17 +22,11 @@ $max-width_: 1440px;
 @font-face {
     font-family: 'Raleway';
     src: url("../../fonts/Raleway/static/Raleway-Medium.ttf");
-    font-weight: 700;
-    font-size: 12px;
-    color: #373A39;
 }
 
 @font-face {
     font-family: 'Montserrat';
     src: url("../../fonts/Montserrat/static/Montserrat-Bold.ttf");
-    font-weight: 700;
-    font-size: 60px;
-    color: #242121;
 }
 
 @font-face {
@@ -42,14 +36,12 @@ $max-width_: 1440px;
 
 @font-face {
     font-family: 'Open Sans';
-    src: url("../../fonts/Open_Sans/static/OpenSans-light.ttf");
-    font-size: 14px;
-    color: #373A39;
+    src: url("../../fonts/Open_Sans/static/OpenSans-Light.ttf");
 }
 
 @font-face {
     font-family: 'Sans medium';
-    src: url("../../fonts/Open_Sans/static/OpenSans-medium.ttf");
+    src: url("../../fonts/Open_Sans/static/OpenSans-Medium.ttf");
 }
 
 @font-face {
@@ -200,7 +192,8 @@ $max-width_: 1440px;
 
             .about__content {
                 font-family: 'Open Sans', sans-serif;
-                width: 770px;
+                width: auto;
+                max-width: 770px;
 
                 .about__description {
                     padding-top: 20px;
@@ -324,7 +317,8 @@ $max-width_: 1440px;
 
                 .expertise__item {
                     display: flex;
-                    width: 370px;
+                    max-width: 370px;
+                    width: auto;
                     gap: 35px;
 
                     .expertise__item-img {
@@ -759,7 +753,8 @@ $max-width_: 1440px;
                 @include flex-center();
 
                 gap: 20px;
-                width: 250px;
+                max-width: 250px;
+                width: auto;
                 height: 14px;
 
                 margin-left: 133px;
@@ -1113,6 +1108,7 @@ $max-width_: 1440px;
 
         .footer__menu {
             display: flex;
+            flex-flow: row wrap;
             gap: 15px;
 
             .footer__menu-item {
@@ -1330,7 +1326,7 @@ $max-width_: 1440px;
     }
 
     .header__content-title {
-        font-size: 95px !important;
+        font-size: 70px !important;
     }
 
     .header__content-text {
@@ -1339,6 +1335,11 @@ $max-width_: 1440px;
 
     .future__title-box {
         width: 100% !important;
+    }
+
+    .footer__menu {
+        gap: 60px !important;
+        justify-content: center;
     }
 }
 
