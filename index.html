@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/src/scss/style.css">
+    <script src="./static/js/script.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header__top">
+            <div class="container">
+
+                <div class="header__logo-and-menu">
+
+                    <div class="logo">
+                        <a class="logo__link" href="https://github.com/DanilfromRussia"></a>
+                        <div class="logo__img"></div>
+                    </div>
+
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia"
+                                    class="menu__link menu__link--active">HOME</a>
+                            </li>
+
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia" class="menu__link">ABOUT US</a>
+                            </li>
+
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia" class="menu__link">PORTFOLIO</a>
+                            </li>
+
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia" class="menu__link">OUR TEAM</a>
+                            </li>
+
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia" class="menu__link">BLOG</a>
+                            </li>
+
+                            <li class="menu__list-item">
+                                <a href="https://github.com/DanilfromRussia" class="menu__link">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+
+                    <div class="header__content-box">
+                        <h1 class="header__content-title">OXYGEN</h1>
+                        <p class="header__content-text">STARTER UI KIT</p>
+                    </div>
+
+                    <img class="header__content-mouse" src="./static/images/icon/mouse.svg" alt="" width="26"
+                        height="43">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="about">
+        <div class="container">
+
+            <div class="about__box">
+
+                <div class="about__title-box">
+                    <h2 class="title about__title">About Us</h2>
+                    <div class="about__underline"></div>
+                </div>
+
+                <div class="about__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa,
+                        dolorum
+                        asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos
+                        aliquam ad
+                        minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio doloremque quibusdam
+                        dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint tenetur, earum facere
+                        veniam?
+                    </p>
+
+                    <p class="about__description">
+                        Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium
+                        saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum
+                        maiores
+                        harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam tempora fugiat.
+                        Perspiciatis quibusdam hic cum tempore.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="expertise">
+        <div class="container">
+
+            <div class="expertise__box">
+
+                <div class="expertise__title-box">
+                    <h1 class="title">Our Expertise</h1>
+                    <div class="expertise__underline"></div>
+                </div>
+
+                <div class="expertise__content">
+
+                    <div class="expertise__statistics">
+
+                        <div class="expertise__brand">
+                            <div class="expertise__progressbar">
+                                <div class="brand-line"></div>
+                            </div>
+
+                            <div class="expertise__type">
+                                <div>BRANDING</div>
+                                <div class="brand-progress">90%</div>
+                            </div>
+                        </div>
+
+                        <div class="expertise__brand">
+                            <div class="expertise__progressbar">
+                                <div class="design-line"></div>
+                            </div>
+
+                            <div class="expertise__type">
+                                <div>DESIGN</div>
+                                <div class="design-progress">80%</div>
+                            </div>
+                        </div>
+
+                        <div class="expertise__brand">
+                            <div class="expertise__progressbar">
+                                <div class="dev-line"></div>
+                            </div>
+
+                            <div class="expertise__type">
+                                <div>DEVELOPMENT</div>
+                                <div class="dev-progress">85%</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="expertise__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa,
+                            dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                            dignissimos aliquam ad minus nisi.</p>
+                        <p class="expertise__paragraph">Autem laborum sint tenetur, earum facere veniam? Sunt fugiat
+                            veniam consectetur soluta quia
+                            ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis</p>
+                    </div>
+                </div>
+
+                <div class="expertise__services">
+
+                    <div class="expertise__item">
+                        <img class="expertise__item-img" src="./static/images/icon/vector.svg" alt="">
+
+                        <div class="expertise__item-box">
+                            <h4 class="expertise__item-title">GRAPHIC DESIGN</h4>
+                            <div class="expertise__item-text">Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="expertise__item">
+                        <img class="expertise__item-img" src="./static/images/icon/monitor.svg" alt="">
+
+                        <div class="expertise__item-box">
+                            <h4 class="expertise__item-title">WEB DEVELOPMENT</h4>
+                            <div class="expertise__item-text">Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="expertise__item">
+                        <img class="expertise__item-img marketing-img" src="./static/images/icon/speaker.svg" alt="">
+
+                        <div class="expertise__item-box">
+                            <h4 class="expertise__item-title">MARKETING</h4>
+                            <div class="expertise__item-text">Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="expertise__margin"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="future">
+
+        <div class="container">
+            <img src="./static/images/content/drawman.png" alt="draw man" class="future__img">
+
+            <div class="future__content">
+
+                <div class="future__title-box">
+                    <h1 class="title future__title">Let’s make magic.</h1>
+                    <div class="future__underline"></div>
+                </div>
+
+                <div class="future__content-text">
+                    <p class="future__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam
+                        odio itaque. Molestiae
+                        aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora labore
+                        nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores velit,
+                        autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla dolor.
+                    </p>
+                    <p>Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et,
+                        reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias
+                        architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis
+                        eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa!
+                        Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat
+                        sapiente dolores, ad libero! Tenetur provident, omnis.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <header class="portfolio__header">
+
+                <div class="portfolio__title-box">
+                    <h1 class="title">Portfolio</h1>
+                    <div class="portfolio__underline"></div>
+                </div>
+
+                <nav class="menu portfolio__menu">
+
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="https://github.com/DanilfromRussia" class="menu__link menu__link--active">ALL</a>
+                        </li>
+
+                        <li class="menu__list-item">
+                            <a href="https://github.com/DanilfromRussia" class="menu__link">BRANDING</a>
+                        </li>
+
+                        <li class="menu__list-item">
+                            <a href="https://github.com/DanilfromRussia" class="menu__link">SHOEGAZE</a>
+                        </li>
+
+                        <li class="menu__list-item">
+                            <a href="https://github.com/DanilfromRussia" class="menu__link">PHOTOGRAPHY</a>
+                        </li>
+
+                        <li class="menu__list-item">
+                            <a href="https://github.com/DanilfromRussia" class="menu__link">ILLUSTRATION</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </header>
+        </div>
+
+        <div class="portfolio__main">
+
+            <div class="container">
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img1"></div>
+                    <div class="portfolio__img img2"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="img3--active">
+                        <div class="img3-title">OCCA CUPIDATAT</div>
+                        <div class="img3-text">DESIGN</div>
+                    </div>
+                    <div class="portfolio__img img4"></div>
+                    <div class="portfolio__img img5"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img6"></div>
+                    <div class="portfolio__img img7"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img8"></div>
+                    <div class="portfolio__img img9"></div>
+                </div>
+            </div>
+
+            <div id="hidden__id" class="container hidden">
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img1"></div>
+                    <div class="portfolio__img img2"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="img3--active">
+                        <div class="img3-title">OCCA CUPIDATAT</div>
+                        <div class="img3-text">DESIGN</div>
+                    </div>
+                    <div class="portfolio__img img4"></div>
+                    <div class="portfolio__img img5"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img6"></div>
+                    <div class="portfolio__img img7"></div>
+                </div>
+
+                <div class="portfolio__grid">
+                    <div class="portfolio__img img8"></div>
+                    <div class="portfolio__img img9"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio__margin"></div>
+
+        <footer class="portfolio__footer">
+            <div class="container">
+                <button id="footer__btn" class="portfolio__footer-btn">VIEW MORE PROJECTS</button>
+            </div>
+        </footer>
+    </section>
+
+    <section class="achivements">
+        <div class="container">
+
+            <!-- quote -->
+            <blockquote class="achivements__quote-box">
+                <p class="achivements__quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <cite class="achivements__quote-author">Gilbert Hammond</cite>
+            </blockquote>
+
+            <!-- video  autoplay controls-->
+            <div class="catch-on-js achivements__video-box">
+                <video id="__video" class="achivements__video" src="./static/video/Bosnia.mp4"></video>
+                <img id="achivement__play" class="play-btn" src="./static/images/icon/play.svg" alt="play button">
+            </div>
+
+            <!-- results -->
+            <div class="achivements__result">
+                <div class="achivements__block">
+                    <div class="achivement__number">305</div>
+                    <p class="achivement__text">Web Design</p>
+                </div>
+
+                <div class="achivements__block">
+                    <div class="achivement__number">220</div>
+                    <p class="achivement__text">Logo Designs</p>
+                </div>
+
+                <div class="achivements__block">
+                    <div class="achivement__number">52</div>
+                    <p class="achivement__text">Print Designs</p>
+                </div>
+
+                <div class="achivements__block">
+                    <div class="achivement__number">88</div>
+                    <p class="achivement__text">Mobile Apps</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container">
+
+            <div id="__slider" class="slider__pics">
+
+                <div class="slider__slide catch-on-js first">
+                    <h3 class="slider__slide-title">Then they show that show to the people who make shows</h3>
+
+                    <p class="slider__description">In September 1939 Szczucin was the area of several skirmishes between
+                        retreating units of Kraków Army, and the advancing Wehrmacht.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js second">
+                    <h3 class="slider__slide-title">Thus, the Wehrmacht lost its flexibility, which was based on the
+                        initiative and involvement.</h3>
+
+                    <p class="slider__description">It became clear that for quite a long time the Wehrmacht would have
+                        to refrain from conducting active actions.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js third">
+                    <h3 class="slider__slide-title">Restrictions on smoking were also introduced in the Wehrmacht</h3>
+
+                    <p class="slider__description">The piquancy of the situation was that in the 1940 year these weapons
+                        were used against each other by the Yugoslav army and the Wehrmacht.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js fourth">
+                    <h3 class="slider__slide-title">Leo had no prospects for a reprieve from the service in the
+                        Wehrmacht</h3>
+
+                    <p class="slider__description">On March 16, 1935, Hitler reintroduced conscription, effectively
+                        making public his previously clandestine rearmament program. The German army would be increased
+                        in size to 550,000 troops, and the Reichswehr of the Weimar Republic would be renamed the
+                        Wehrmacht.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js fifth">
+                    <h3 class="slider__slide-title">More than 60% of Wehrmacht land troops were destroyed in Ukraine.
+                    </h3>
+
+                    <p class="slider__description">The path of the righteous man is beset on all sides by the iniquities
+                        of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                        will, shepherds the weak through the valley of darkness, for he is truly his brother’s.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js sixth">
+                    <h3 class="slider__slide-title">The young soldier of the Wehrmacht is crying, realising his homeland
+                        is occupied by enemy.</h3>
+
+                    <p class="slider__description">The path of the righteous man is beset on all sides by the iniquities
+                        of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                        will, shepherds the weak through the valley of darkness, for he is truly his brother’s.</p>
+                </div>
+
+                <div class="slider__slide catch-on-js seven">
+                    <h3 class="slider__slide-title">Good Wehrmacht soldiers can appear on our television screens already
+                        this year.</h3>
+
+                    <p class="slider__description">The path of the righteous man is beset on all sides by the iniquities
+                        of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                        will, shepherds the weak through the valley of darkness, for he is truly his brother’s.</p>
+                </div>
+
+                <div class="slider__btn-box">
+                    <img src="./static/images/icon/arrow-left.svg" alt="arrow left" class="slider__btn-left"
+                        id="__btn-left">
+                    <img src="./static/images/icon/arrow-right.svg" alt="arrow right" class="slider__btn-right"
+                        id="__btn-right">
+                </div>
+
+                <div id="__pegination" class="slider__pegination">
+                    <span class="slider__dot  slider__dot--active one"></span>
+                    <span class="slider__dot two"></span>
+                    <span class="slider__dot three"></span>
+                    <span class="slider__dot four"></span>
+                    <span class="slider__dot five"></span>
+                    <span class="slider__dot six"></span>
+                    <span class="slider__dot seven"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="team">
+        <div class="container">
+
+            <div class="team__title-box">
+                <h1 class="title team__title">Our Team</h1>
+                <div class="team__underline"></div>
+            </div>
+
+            <div class="team__container">
+
+                <div class="team__block">
+                    <div class="team__face">
+                        <img src="./static/images/content/imgceo.png" alt="ceo face">
+                    </div>
+                    <div class="team__name">BERNARD SPARKS</div>
+                    <div class="team__proffesion">CEO</div>
+                </div>
+
+                <div class="team__block">
+                    <div class="team__face">
+                        <img src="./static/images/content/imgcofounder.png" alt="cofounder face">
+                    </div>
+                    <div class="team__name">MINERVA BENSON</div>
+                    <div class="team__proffesion">Co-Founder</div>
+                </div>
+
+                <div class="team__block">
+                    <div class="team__face">
+                        <img src="./static/images/content/imgsales.png" alt="saler face">
+                    </div>
+                    <div class="team__name">JARED OLSON</div>
+                    <div class="team__proffesion">Sales</div>
+                </div>
+            </div>
+
+            <div class="team__margin"></div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+
+            <div class="pricing__title-box">
+                <h1 class="title pricing__title">Pricing Plans</h1>
+                <div class="pricing__underline"></div>
+            </div>
+
+
+            <div class="pricing__box">
+
+                <div class="pricing__follow-container">
+                    <span class="pricing__subscript">Basic</span>
+
+                    <div class="pricing__cost">
+                        <span class="currency">$</span>
+                        <span class="sum">29</span>
+                        <span class="interval">/mo</span>
+                    </div>
+
+                    <div class="content">
+                        <span class="content__item">1 Logo Design</span>
+                        <span class="content__item">1 Website Design</span>
+                        <span class="content__item">1 Domain Free</span>
+                        <span class="content__item">3 Month License</span>
+                        <span class="content__item">1 GB Storage</span>
+                    </div>
+
+                    <a class="content__btn" href="https://github.com/DanilfromRussia">CHOOSE PLAN</a>
+                </div>
+
+                <div class="pricing__follow-container">
+                    <span class="pricing__subscript">Starter</span>
+
+                    <div class="pricing__cost">
+                        <span class="currency">$</span>
+                        <span class="sum">50</span>
+                        <span class="interval">/mo</span>
+                    </div>
+
+                    <div class="content">
+                        <span class="content__item">2 Logo Design</span>
+                        <span class="content__item">2 Website Design</span>
+                        <span class="content__item">1 Domain Free</span>
+                        <span class="content__item">6 Month License</span>
+                        <span class="content__item">1 GB Storage</span>
+                    </div>
+
+                    <a class="content__btn" href="https://github.com/DanilfromRussia">CHOOSE PLAN</a>
+                </div>
+
+                <div class="pricing__follow-container">
+                    <span class="pricing__subscript">Proffesional</span>
+
+                    <div class="pricing__cost">
+                        <span class="currency">$</span>
+                        <span class="sum">70</span>
+                        <span class="interval">/mo</span>
+                    </div>
+
+                    <div class="content">
+                        <span class="content__item">3 Logo Design</span>
+                        <span class="content__item">3 Website Design</span>
+                        <span class="content__item">2 Domain Free</span>
+                        <span class="content__item">12 Month License</span>
+                        <span class="content__item">2 GB Storage</span>
+                    </div>
+
+                    <a class="content__btn" href="https://github.com/DanilfromRussia">CHOOSE PLAN</a>
+                </div>
+
+            </div>
+
+            <div class="pricing__margin"></div>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section class="contact">
+        <div class="container">
+
+            <div class="contact__form">
+
+                <div class="contact__title-box">
+                    <h1 class="title contact__title">Get in Touch</h1>
+                    <div class="contact__underline"></div>
+                </div>
+
+                <form action="#" class="contact__fields" method="POST">
+
+                    <div class="contact__identificator">
+                        <input class="contact__name" name="name_initials" type="text" placeholder="YOUR NAME" required>
+                        <input class="contact__email" name="name_email" type="email" placeholder="YOUR EMAIL" required>
+                    </div>
+
+                    <textarea class="contact__message" name="name_msg" cols="30" rows="10" placeholder="YOUR MESSAGE"
+                        required></textarea>
+
+                    <button type="submit" class="button contact__button">SEND MESSAGE</button>
+                </form>
+
+            </div>
+
+            <div id="map" class="contact__map"></div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__margin-block"></div>
+
+            <div class="footer__logo-box">
+                <div class="footer__logo">
+                    <a href="https://github.com/DanilfromRussia" class="logo__link"></a>
+                </div>
+                <div class="footer__underline"></div>
+            </div>
+
+            <nav class="footer__nav">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">FACEBOOK</a></li>
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">TWITTER</a></li>
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">GOOGLE+</a></li>
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">BEHANCE</a></li>
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">DRIBBLE</a></li>
+                    <li class="footer__menu-item"><a href="https://github.com/DanilfromRussia"
+                            class="footer__link">INSTAGRAM</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__addr-cntnr">
+                <p>Mese Selimovica 52, Banja Luka - BiH</p>
+                <p>(00387) 65 252 222</p>
+                <p>info@mail.com</p>
+            </div>
+
+            <a href="#">
+                <img src="./static/images/icon/angle-up.svg" alt="footer angle up icon" class="footer__angle-up">
+            </a>
+
+            <div class="footer__bottom-box">
+                <span class="footer__bottom-text">@2015 Oxygen Theme</span>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
